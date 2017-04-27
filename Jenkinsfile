@@ -1,10 +1,10 @@
-pipeline{
+pipeline {
     agent any
 
     stages {
         stage('Build and Package') {
             steps {
-                echo 'Building...'
+                echo 'Building..'
             }
         }
         stage('Test') {
