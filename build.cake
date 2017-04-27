@@ -1,5 +1,3 @@
-#addin "Cake.Npm"
-#addin "Cake.Gulp"
 #tool "nuget:?package=OctopusTools"
 
 var target = Argument("target", "Build");
